@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <title>User login</title>
+    </head>
+    <style>
+        body{
+          background-image: url("login.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-attachment: fixed;
+          font-size: 14px;
+        }
+
+        .login{
+           margin: auto;
+           width: 250px;
+           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+           padding: 80px 40px;
+           margin-top: 50px;
+           background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+           background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+        }
+        h2{
+         margin: 0 0 30px 0;
+         padding: 10px;
+         color: #efed40;
+         text-align: center;
+        }
+        input{
+          width: 100%;
+          margin-bottom: 30px;
+        }
+        input[type=text] , input[type=password]{
+         border: none;
+         outline: none;
+         border: 2px #fff dotted;
+         background: transparent;
+         border-radius: 20px;
+         box-sizing: border-box;
+         color: #fff;
+         font-size: 16px;
+         padding: 10px;
+         text-align: center;
+        }
+        ::placeholder{
+         color: rgba(255,255,255,0.5);
+         text-align: center;
+        }
+        input[type=submit]{
+         border: none;
+         outline: none;
+         padding: 10px;
+         color: #fff;
+         font-size: 16px;
+         font-family: Arial;
+         background: #ff267e;
+         cursor: pointer;
+         border-radius: 20px;
+        }
+        input[type=submit] :hover{
+         background: #efed40;
+         color: #262626;
+        }
+        a{
+         color: #fff;
+         font-size: 14px;
+         font-weight: bold;
+         text-decoration: none;
+        }
+        a:hover{
+         text-decoration: underline;
+        }
+    </style>
+    <body>
+
+        <!-- header -->
+        <header>
+            <div class = "navigation-container">
+                <div class = "top-head">
+                    <div class = "web-name">
+                        <h1>ONLINE EXAM</h1>
+                    </div>
+                    
+
+                    <div class = "ham-btn">
+                        <span>
+                            <i class = "fas fa-bars"></i>
+                        </span>
+                    </div>
+
+                    <div class = "times-btn">
+                        <span>
+                            <i class = "fas fa-times"></i>
+                        </span>
+                    </div>
+                </div>
+
+                
+                <!-- nav bar -->
+
+                <div class = "nav-bar" id = "nav-bar">
+                    <nav>
+                        
+                          <p>
+                              <h1> <li><a href = "index.html">Home</a></li>
+                            <li><a href = "Userreg.html">Registration</a></li>
+                            <li><a href = "Userlogin.html">Login</a></li>
+                            
+                            <li><a href = "login2.html">student log in</a></li>
+                            <li><a href = "login.html">Admin log in</a></li>
+                        
+                
+</h1>
+                            </p>
+                        
+                    
+                </div>
+
+
+                
+        </header>
+        <br />
+        <div class="login">
+            <h2>Log in here</h2>
+            <form>
+                <input type="text" name="email" placeholder="Enter email">
+                <input type="password" name="password" placeholder="Enter password">
+                <input type="submit" name="login" value="login">
+                <a href="#">Forget password</a>
+                <br />
+                <br/>
+                <a href="Userreg.html">Don't have an account? Register here</a>
+
+            </form>
+        </div>
+        <br />
+
+        <footer>
+            <div class = "footer-container">
+                <div class = "footer-left">
+                    <h2>ONLINE EXAM</h2>
+                    <p style="font-size: 200%;">Log In as Teacher. Teacher. A teacher can manage exams, questions and answers. He or she can also make announcement to the student and view student's ...</p>
+                    
+                </div>
+
+                <div class = "footer-right">
+                    <h2>Newletter</h2>
+                    <p style="font-size: 200%;">Switching from books to computers, pencils to keyboard keys, white board to PowerPoint presentations, question papers to online exams is a huge change.</p>
+    
+                    <div>
+                        <input type = "text" placeholder = "Email Address">
+                        <i class = "fas fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+
+            <p style="font-size: 300%;">ONLINE EXAM &copy; 2021 design by sourav |sourav kundu</p>
+        </footer>
+
+
+    
+    </body>
+</html>    
